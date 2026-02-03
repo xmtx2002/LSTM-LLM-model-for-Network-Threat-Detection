@@ -19,7 +19,7 @@ Deep Learning models (like LSTMs) often fail when testing data differs significa
     * **System 1 (LSTM):** Handles 90% of traffic. High confidence predictions are accepted immediately.
     * **System 2 (LLM):** Activated **only** when the LSTM is uncertain ($0.3 < P_{attack} < 0.7$). The LLM analyzes the flow's semantic features (Port, Duration, Size) to make a final verdict.
 
-![Framework Architecture](results/flow_chart.pdf)
+![Framework Architecture](flow_chart.png)
 *(Note: Please convert the flow_chart.pdf to .png for better GitHub rendering)*
 
 ---
